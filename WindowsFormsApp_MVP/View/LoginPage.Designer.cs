@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label_kullaniciAdiText = new System.Windows.Forms.Label();
-            this.label_sifreText = new System.Windows.Forms.Label();
-            this.textBox_kullaniciAdi = new System.Windows.Forms.TextBox();
-            this.textBox_sifre = new System.Windows.Forms.TextBox();
-            this.button_giris = new System.Windows.Forms.Button();
             this.label_girisDurumuText = new System.Windows.Forms.Label();
+            this.button_giris = new System.Windows.Forms.Button();
+            this.textBox_sifre = new System.Windows.Forms.TextBox();
+            this.textBox_kullaniciAdi = new System.Windows.Forms.TextBox();
+            this.label_sifreText = new System.Windows.Forms.Label();
+            this.label_kullaniciAdiText = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,37 +53,13 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Giriş Yapınız";
             // 
-            // label_kullaniciAdiText
+            // label_girisDurumuText
             // 
-            this.label_kullaniciAdiText.AutoSize = true;
-            this.label_kullaniciAdiText.Location = new System.Drawing.Point(115, 62);
-            this.label_kullaniciAdiText.Name = "label_kullaniciAdiText";
-            this.label_kullaniciAdiText.Size = new System.Drawing.Size(84, 17);
-            this.label_kullaniciAdiText.TabIndex = 0;
-            this.label_kullaniciAdiText.Text = "Kullanıcı Adı";
-            // 
-            // label_sifreText
-            // 
-            this.label_sifreText.AutoSize = true;
-            this.label_sifreText.Location = new System.Drawing.Point(162, 107);
-            this.label_sifreText.Name = "label_sifreText";
-            this.label_sifreText.Size = new System.Drawing.Size(37, 17);
-            this.label_sifreText.TabIndex = 1;
-            this.label_sifreText.Text = "Şifre";
-            // 
-            // textBox_kullaniciAdi
-            // 
-            this.textBox_kullaniciAdi.Location = new System.Drawing.Point(232, 59);
-            this.textBox_kullaniciAdi.Name = "textBox_kullaniciAdi";
-            this.textBox_kullaniciAdi.Size = new System.Drawing.Size(100, 22);
-            this.textBox_kullaniciAdi.TabIndex = 2;
-            // 
-            // textBox_sifre
-            // 
-            this.textBox_sifre.Location = new System.Drawing.Point(232, 104);
-            this.textBox_sifre.Name = "textBox_sifre";
-            this.textBox_sifre.Size = new System.Drawing.Size(100, 22);
-            this.textBox_sifre.TabIndex = 3;
+            this.label_girisDurumuText.Location = new System.Drawing.Point(95, 229);
+            this.label_girisDurumuText.Name = "label_girisDurumuText";
+            this.label_girisDurumuText.Size = new System.Drawing.Size(267, 18);
+            this.label_girisDurumuText.TabIndex = 5;
+            this.label_girisDurumuText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // button_giris
             // 
@@ -95,13 +71,37 @@
             this.button_giris.UseVisualStyleBackColor = true;
             this.button_giris.Click += new System.EventHandler(this.button_giris_Click);
             // 
-            // label_girisDurumuText
+            // textBox_sifre
             // 
-            this.label_girisDurumuText.AutoSize = true;
-            this.label_girisDurumuText.Location = new System.Drawing.Point(205, 233);
-            this.label_girisDurumuText.Name = "label_girisDurumuText";
-            this.label_girisDurumuText.Size = new System.Drawing.Size(0, 17);
-            this.label_girisDurumuText.TabIndex = 5;
+            this.textBox_sifre.Location = new System.Drawing.Point(232, 104);
+            this.textBox_sifre.Name = "textBox_sifre";
+            this.textBox_sifre.Size = new System.Drawing.Size(100, 22);
+            this.textBox_sifre.TabIndex = 3;
+            // 
+            // textBox_kullaniciAdi
+            // 
+            this.textBox_kullaniciAdi.Location = new System.Drawing.Point(232, 59);
+            this.textBox_kullaniciAdi.Name = "textBox_kullaniciAdi";
+            this.textBox_kullaniciAdi.Size = new System.Drawing.Size(100, 22);
+            this.textBox_kullaniciAdi.TabIndex = 2;
+            // 
+            // label_sifreText
+            // 
+            this.label_sifreText.AutoSize = true;
+            this.label_sifreText.Location = new System.Drawing.Point(162, 107);
+            this.label_sifreText.Name = "label_sifreText";
+            this.label_sifreText.Size = new System.Drawing.Size(37, 17);
+            this.label_sifreText.TabIndex = 1;
+            this.label_sifreText.Text = "Şifre";
+            // 
+            // label_kullaniciAdiText
+            // 
+            this.label_kullaniciAdiText.AutoSize = true;
+            this.label_kullaniciAdiText.Location = new System.Drawing.Point(115, 62);
+            this.label_kullaniciAdiText.Name = "label_kullaniciAdiText";
+            this.label_kullaniciAdiText.Size = new System.Drawing.Size(84, 17);
+            this.label_kullaniciAdiText.TabIndex = 0;
+            this.label_kullaniciAdiText.Text = "Kullanıcı Adı";
             // 
             // Form1
             // 

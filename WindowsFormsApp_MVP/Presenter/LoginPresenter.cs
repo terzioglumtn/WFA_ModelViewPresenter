@@ -23,7 +23,21 @@ namespace WindowsFormsApp_MVP.Presenter
 
         private void LoginPanel_View_GirisTiklandi(object sender, EventArgs e)
         {
-            LoginPanel_View.GirisDurumu = LoginModel.Bilgi_Kontrol();
+            if (LoginModel.KullaniciAdi == "metin")
+            {
+                if (LoginModel.Sifre == "1234")
+                {
+                    LoginPanel_View.GirisDurumu = "ONAYLANDI";
+                }
+                else
+                {
+                    LoginPanel_View.GirisDurumu = "ŞİFRE YANLIŞ";
+                }
+            }
+            else
+            {
+                LoginPanel_View.GirisDurumu = "KULLANICI ADI YANLIŞ";
+            }
         }
     }
 }

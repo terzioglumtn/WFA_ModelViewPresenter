@@ -13,6 +13,5 @@ namespace WindowsFormsApp_MVP.View
         string KullaniciAdi { get; set; }
         string Sifre        { get; set; }
         string GirisDurumu  { get; set; }
-
     }
 }

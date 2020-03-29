@@ -11,23 +11,23 @@ namespace WindowsFormsApp_MVP.Model
         public string KullaniciAdi { get; set; }
         public string Sifre { get; set; }
 
-        public string Bilgi_Kontrol()
-        {
-            if (KullaniciAdi == "metin")
-            {
-                if (Sifre == "1234")
-                {
-                    return "ONAYLANDI";
-                }
-                else
-                {
-                    return "ONAYLANMADI";
-                }
-            }
-            else
-            {
-                return "ONAYLANMADI";
-            }
-        }
+        //public string Bilgi_Kontrol()
+        //{
+        //    if (KullaniciAdi == "metin")
+        //    {
+        //        if (Sifre == "1234")
+        //        {
+        //            return "ONAYLANDI";
+        //        }
+        //        else
+        //        {
+        //            return "ONAYLANMADI";
+        //        }
+        //    }
+        //    else
+        //    {
+        //        return "ONAYLANMADI";
+        //    }
+        //}
     }
 }
